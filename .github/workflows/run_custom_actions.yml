@@ -2,7 +2,7 @@ name: Test custom gha action
 run-name: gha action first
 
 on:
-  repository_dispatch:
+  workflow_dispatch:
 
 jobs:
   job1:
