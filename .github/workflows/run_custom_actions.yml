@@ -1,0 +1,15 @@
+name: Test custom gha action
+run-name: gha action first
+
+on:
+  repository_dispatch:
+
+jobs:
+  job1:
+    runs-on: windows-latest
+    steps:
+      - name: Show Current Time
+        run: echo "Current time"
+    
+
+    
