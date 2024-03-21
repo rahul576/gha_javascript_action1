@@ -10,6 +10,7 @@ jobs:
     steps:
       - name: Show Current Time
         run: echo "Current time"
+      - uses: gha_javascript_action1@main
     
 
     
